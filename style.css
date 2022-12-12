@@ -34,3 +34,156 @@ a {
     font-size: 24px;
     font-weight: 900;
 }
+
+.first-section {
+    background-color: #1F2937;
+    padding: 25px 35px 40px 200px;
+    display: flex;
+    gap: 65px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 40%;
+}
+
+/* Style the first child element of the intro class (big text) */
+.intro div:nth-child(1) {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+/* Style the second child element of the intro class (smaller text) */
+.intro div:nth-child(2) {
+    color: #E5E7EB;
+    font-size: 24px;
+}
+
+button {
+    background-color: #3882F6;
+    padding: 15px;
+    font-size: 24px;
+    font-weight: 900;
+    color: white;
+    max-width: 6em;
+    border-style: none;
+    border-radius: 15px;
+}
+
+.picture img {
+    width: 400px;
+    border-radius: 15px;
+}
+
+/* Style the 4 images in the second section */
+figure img {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    border: 5px solid #3882F6;
+}
+
+/* The 4 pictures in the second section should be lined up */
+.personel {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Style the first sentence in the second section */
+.second-section div:first-child {
+    font-size: 36px;
+    font-strength: 900;
+    color: #1F2937;
+}
+
+/* All items should be centered */
+.second-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 40px 0 40px 0;
+}
+
+/* Center text under the 4 pictures */
+figcaption {
+    text-align: center;
+    color: #1F2937;
+}
+
+.third-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Style the quotation in section 3 */
+.third-section div:nth-child(1) {
+    font-style: italic;
+    font-size: 24px;
+    color: #1F2937;
+}
+
+.quoter {
+    font-weight: 900;
+    font-size: 20px;
+    color: black;
+    text-align: end;
+    align-self: stretch;
+}
+
+.third-section {
+    background-color: #E5E7EB;
+    padding: 90px 220px 90px 220px;
+}
+
+/* Style the blue block in section 4 */
+.blue-block {
+    background-color: #3882F6;
+    border-radius: 15px;
+    align-self: stretch;
+    padding: 30px 50px 30px 50px;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+/* Center the blue block the section 4 */
+.fourth-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0 60px 0;
+}
+
+/* Style the first line of text in the blue block */
+.text-in-blue-block div:nth-child(1) {
+    font-size: 23px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+/* Style the second text part in the blue block */
+.text-in-blue-block div:nth-child(2) {
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+/* Style the button in the blue block */
+.blue-block button {
+    border: 2px solid #F9FAF8;
+    border-radius: 10px;
+    padding: 6px 15px 6px 15px;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 25px 0 25px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
