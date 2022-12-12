@@ -73,6 +73,11 @@ button {
     border-radius: 15px;
 }
 
+/* Style buttons when hovered over */
+button:hover {
+    background-color: #8ca6d1;
+}
+
 .picture img {
     width: 400px;
     border-radius: 15px;
